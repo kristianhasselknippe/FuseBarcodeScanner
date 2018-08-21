@@ -1,0 +1,6 @@
+<Barcode.MyBarcodeScanner  ux:Class="BarcodeScanner">
+    <Barcode.iOS.BarcodeScannerControl ux:Template="iOSAppearance" Host="this" />
+    <Text ux:Template="GraphicsAppearance">
+	Barcode scanner not supported on this device
+    </Text>
+</Barcode.MyBarcodeScanner>

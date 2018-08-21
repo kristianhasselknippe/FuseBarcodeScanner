@@ -1,0 +1,13 @@
+{
+    "RootNamespace":"",
+    "Packages": [
+	"Fuse",
+	"FuseJS"
+    ],
+    "Includes": [
+	"BarcodeScanner.ios.uno",
+	"BarcodeScanner.uno",
+	"BarcodeScanner.ux",
+	"BarcodeScannerWrapper.swift:Swift:iOS"
+    ]
+}
