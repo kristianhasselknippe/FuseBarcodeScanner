@@ -24,7 +24,7 @@ namespace Barcode.iOS
         [Foreign(Language.ObjC)]
         static ObjC.Object Create()
         @{
-            HelloSwiftWorld* x = [[HelloSwiftWorld alloc] init];
+            FuseBarcodeViewController* x = [[FuseBarcodeViewController alloc] init];
             return [x CreateBarcodeScanner];
         @}
 
