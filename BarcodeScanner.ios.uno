@@ -24,8 +24,7 @@ namespace Barcode.iOS
         [Foreign(Language.ObjC)]
         static ObjC.Object Create()
         @{
-            FuseBarcodeViewController* x = [[FuseBarcodeViewController alloc] init];
-            return [x CreateBarcodeScanner];
+            return [[FuseBarcodeViewController alloc] init];
         @}
 
         void OnFoundBarcode()
