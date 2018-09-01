@@ -28,9 +28,15 @@ import BarcodeScanner
 
     public override var frame: CGRect {
         get {
+            print("The bounds:")
+            print(self.barcodeVC.view.bounds)
+            print("The frame")
+            print(self.barcodeVC.view.frame)
             return self.barcodeVC.view.bounds
         }
         set {
+            print("Foobar")
+            print(newValue)
             return self.barcodeVC.view.bounds = newValue
         }
     }
@@ -42,6 +48,8 @@ import BarcodeScanner
         self.barcodeVC.dismissalDelegate = self
 
         self.barcodeVC.view.autoresizingMask = UIViewAutoresizing(rawValue: UIViewAutoresizing.RawValue(UInt8(UIViewAutoresizing.flexibleWidth.rawValue) | UInt8(UIViewAutoresizing.flexibleTopMargin.rawValue)))
+        
+        addSubview(barcodeVC.view)
     }
 
     public convenience init() {

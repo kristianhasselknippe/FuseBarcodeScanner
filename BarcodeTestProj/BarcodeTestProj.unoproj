@@ -1,0 +1,13 @@
+{
+    "Includes": [
+        "*"
+    ],
+    "Projects": [
+        "../BarcodeScanner.unoproj"
+    ],
+    "Packages": [
+        "Fuse",
+        "FuseJS"
+    ],
+    "RootNamespace": ""
+}
