@@ -1,11 +1,11 @@
 <App>
     <DockPanel>
         <Panel Height="120" Dock="Top" Color="Red" />
-        <NativeViewHost>
-            <BarcodeScanner />
-        </NativeViewHost>
         <Panel Height="80" Dock="Bottom" Color="Blue" />
         <Panel Width="30" Dock="Right" Color="Yellow" />
         <Panel Width="20" Dock="Left" Color="Green" />
+        <NativeViewHost>
+            <BarcodeScanner />
+        </NativeViewHost>
     </DockPanel>
 </App>
